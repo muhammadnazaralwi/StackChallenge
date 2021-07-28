@@ -9,6 +9,7 @@ public class Main {
         String[] numbersB = new String[numbersA.length];
         int smallestValue = 0;
 
+        System.out.println("A = " + Arrays.toString(numbersA));
         for (int i = 0; i < numbersA.length; i++) {
             int top;
             Node node;
@@ -37,6 +38,6 @@ public class Main {
             }
         }
 
-        System.out.println(Arrays.toString(numbersB));
+        System.out.println("B = " + Arrays.toString(numbersB));
     }
 }
